@@ -24,6 +24,16 @@ border-radius: 5px;
 display: flex;
 align-items: center;
 }
+.secondary-bg{
+    background-color: rgba(248, 248, 248, 1);
+}
+.section-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(71, 71, 71, 1);
+    text-align: center;
+    margin-bottom: 50px;
+}
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -83,4 +93,23 @@ color: white;
 font-size: 20px;
 border: none;
 border-radius: 5px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 600;
 }
